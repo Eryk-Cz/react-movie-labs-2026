@@ -59,6 +59,7 @@ const [drawerOpen, setDrawerOpen] = useState(false);
         />
         <Chip label={`Released: ${movie.release_date}`} />
       </Paper>
+
        <Fab
         color="secondary"
         variant="extended"
